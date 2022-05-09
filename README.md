@@ -5,11 +5,11 @@ Performance test
 https://stackoverflow.com/questions/1332454/replace-multiple-characters-in-string-in-one-line-of-code-in-vb-net/13488658#13488658
 
 Result:
-|      Method |      Mean |     Error |    StdDev |
-|------------ |----------:|----------:|----------:|
-| LinqToArray | 652.21 ns | 12.339 ns | 11.542 ns |
-|     ForEach | 122.23 ns |  2.387 ns |  2.653 ns |
-|     Regexer | 395.62 ns |  6.927 ns |  6.479 ns |
-|      Hasher | 407.29 ns |  4.542 ns |  4.248 ns |
-|   Splitting | 113.99 ns |  2.240 ns |  2.580 ns |
-|   Aggregate | 143.04 ns |  2.309 ns |  2.160 ns |
+|      Method |     Mean |    Error |   StdDev |
+|------------ |---------:|---------:|---------:|
+| LinqToArray | 635.2 ns | 12.20 ns | 11.42 ns |
+|     ForEach | 119.0 ns |  1.58 ns |  1.40 ns |
+|     Regexer | 392.0 ns |  7.38 ns |  8.50 ns |
+|      Hasher | 402.0 ns |  6.04 ns |  5.65 ns |
+|   Splitting | 109.8 ns |  1.84 ns |  1.72 ns |
+|   Aggregate | 136.6 ns |  2.62 ns |  2.45 ns |
